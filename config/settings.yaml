@@ -1,0 +1,20 @@
+# TORRE HEBRON Configuration
+version: "1.2.0"
+
+paths:
+  videos: "./data/videos"
+  thumbnails: "./data/thumbnails"
+  outputs: "./outputs"
+  logs: "./logs"
+
+youtube:
+  api_key: "YOUR_API_KEY_HERE"
+  channel_id: "YOUR_CHANNEL_ID"
+  
+automation:
+  max_videos_per_day: 3
+  upload_schedule: "09:00,14:00,19:00"
+  
+logging:
+  level: "INFO"
+  file: "./logs/torre-hebron.log"

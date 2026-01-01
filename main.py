@@ -10,11 +10,12 @@ def main():
     print("📅 Versão 1.2.0 - 31/12/2025")
     print("=" * 50)
     print("\n✅ Sistema inicializado com sucesso!")
-    print("\nMódulos disponíveis:")
+    print("\n📦 Módulos disponíveis:")
     print("  • Video Generator")
     print("  • Thumbnail Creator")
     print("  • Upload Manager")
     print("  • Analytics Engine")
+    print("\n🚀 Use: python3 main.py [opções]")
     
 if __name__ == "__main__":
     main()

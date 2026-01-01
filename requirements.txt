@@ -1,0 +1,23 @@
+# TORRE HEBRON - Dependências
+# YouTube Automation System
+
+# Core
+python>=3.8
+
+# Video processing
+opencv-python
+moviepy
+Pillow
+
+# YouTube API
+google-api-python-client
+google-auth-oauthlib
+
+# Utilities
+requests
+beautifulsoup4
+pytube
+
+# Dev
+pytest
+black
