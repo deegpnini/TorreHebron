@@ -1,6 +1,13 @@
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
 data/cache/
 outputs/
 *.log
 .env
+.DS_Store
+thumbs.db
